@@ -10,15 +10,14 @@ for (var i = 0; i < cards.length; i++) {
   });
 }
 
-const mySiema = new Siema();
 const prev = document.querySelector('.prev');
 const next = document.querySelector('.next');
 
 prev.addEventListener('click', () => mySiema.prev());
 next.addEventListener('click', () => mySiema.next());
 
-/*new Siema({
-  selector: '.siema',
+new Siema({
+  selector: '.slider',
   duration: 200,
   easing: 'ease-out',
   perPage: 1,
@@ -30,5 +29,5 @@ next.addEventListener('click', () => mySiema.next());
   rtl: false,
   onInit: () => {},
   onChange: () => {},
-});*/
+});
 
