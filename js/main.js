@@ -10,17 +10,14 @@ for (var i = 0; i < cards.length; i++) {
   });
 }
 
-/*document.getElementsByClassName('sbutton-left').onclick = sliderLeft;
-var left = 0;
+const mySiema = new Siema();
+const prev = document.querySelector('.prev');
+const next = document.querySelector('.next');
 
-function sliderLeft(){
-   var bar = document.getElementsByClassName('slide');
-   left = left - 1140;
-   bar.style.left = left+'px';
-}*/
+prev.addEventListener('click', () => mySiema.prev());
+next.addEventListener('click', () => mySiema.next());
 
-
-new Siema({
+/*new Siema({
   selector: '.siema',
   duration: 200,
   easing: 'ease-out',
@@ -33,10 +30,5 @@ new Siema({
   rtl: false,
   onInit: () => {},
   onChange: () => {},
-});
-
-const mySiema = new Siema();
-document.querySelector('.prev').addEventListener('click', () => mySiema.prev());
-document.querySelector('.next').addEventListener('click', () => mySiema.next());
-
+});*/
 
