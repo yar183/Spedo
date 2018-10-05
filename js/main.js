@@ -10,13 +10,8 @@ for (var i = 0; i < cards.length; i++) {
   });
 }
 
-const prev = document.querySelector('.prev');
-const next = document.querySelector('.next');
 
-prev.addEventListener('click', () => mySiema.prev());
-next.addEventListener('click', () => mySiema.next());
-
-new Siema({
+const mySiema = new Siema({
   selector: '.slider',
   duration: 200,
   easing: 'ease-out',
@@ -30,4 +25,11 @@ new Siema({
   onInit: () => {},
   onChange: () => {},
 });
+
+const prev = document.querySelector('.prev');
+const next = document.querySelector('.next');
+
+prev.addEventListener('click', () => mySiema.prev());
+next.addEventListener('click', () => mySiema.next());
+
 

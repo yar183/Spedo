@@ -209,6 +209,10 @@ a {
 
 /*=======Slider======*/
 
+.promo{
+  position: relative;
+}
+
 .slider {
   background-color: #baf9c4;
   position: relative;
