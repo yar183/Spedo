@@ -211,10 +211,10 @@ a {
 
 .promo{
   position: relative;
+  background-color: #baf9c4;
 }
 
 .slider {
-  background-color: #baf9c4;
   position: relative;
   height: 469px;
 }
