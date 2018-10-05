@@ -165,7 +165,6 @@ a {
   position: relative;
   font-size: 15px;
   font-weight: bold;
-  padding-bottom: 86px;
 }
 .secondary-nav i {
   color: black;
@@ -211,12 +210,12 @@ a {
 
 .promo{
   position: relative;
-  background-color: #baf9c4;
+  background: url(images/female-model-png.png) no-repeat 61.71% 50%,linear-gradient(to top, #baf9c4 87%, white 20%);
 }
 
 .slider {
   position: relative;
-  height: 469px;
+  height: 540px;
 }
 
 .preview-date {
@@ -227,7 +226,7 @@ a {
   text-transform: uppercase;
   line-height: 30px;
   letter-spacing: 1.87px;
-  padding-top: 89px;
+  padding-top: 159px;
   padding-left: 145px;
 }
 .collection-info {
@@ -270,11 +269,20 @@ a {
 }
 .rectangle {
   position: absolute;
-  width: 270px;
-  height: 398px;
-  border: 1px solid #313131;
-  top: 67px;
+  width: 128px;
+  height: 397px;
+  border-bottom: 1px solid #313131;
+  border-right: 1px solid #313131;
+  top: 138px;
   right: 162px;
+}
+
+.border-top{
+  position: absolute;
+  height: 100px;
+  left: 11px;
+  width: 118px;
+  border-top: 1px solid #313131;
 }
 
 .slide{
@@ -287,7 +295,7 @@ a {
   height: 70px;
   background-color: #ffffff;
   position: absolute;
-  top: 200px;
+  top: 270px;
   text-align: center;
   line-height: 55px;
   line-height: 73px;
